@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "\\\\10.0.0.238\\OpenShare\\CED\\LORENZO\\progetti-stage\\progetti-stage.csproj",
-      "projectName": "progetti-stage",
-      "projectPath": "\\\\10.0.0.238\\OpenShare\\CED\\LORENZO\\progetti-stage\\progetti-stage.csproj",
+      "projectUniqueName": "\\\\10.0.0.238\\OpenShare\\CED\\LORENZO\\progetti-stage\\progetto1\\progetto1.csproj",
+      "projectName": "progetto1",
+      "projectPath": "\\\\10.0.0.238\\OpenShare\\CED\\LORENZO\\progetti-stage\\progetto1\\progetto1.csproj",
       "packagesPath": "C:\\Users\\ced\\.nuget\\packages\\",
-      "outputPath": "\\\\10.0.0.238\\OpenShare\\CED\\LORENZO\\progetti-stage\\obj\\",
+      "outputPath": "\\\\10.0.0.238\\OpenShare\\CED\\LORENZO\\progetti-stage\\progetto1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
