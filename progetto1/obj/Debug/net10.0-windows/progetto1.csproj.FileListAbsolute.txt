@@ -1,0 +1,15 @@
+\\10.0.0.238\OpenShare\CED\LORENZO\progetti-stage\progetto1\obj\Debug\net10.0-windows\progetto1.GeneratedMSBuildEditorConfig.editorconfig
+\\10.0.0.238\OpenShare\CED\LORENZO\progetti-stage\progetto1\obj\Debug\net10.0-windows\progetto1.AssemblyInfoInputs.cache
+\\10.0.0.238\OpenShare\CED\LORENZO\progetti-stage\progetto1\obj\Debug\net10.0-windows\progetto1.AssemblyInfo.cs
+\\10.0.0.238\OpenShare\CED\LORENZO\progetti-stage\progetto1\obj\Debug\net10.0-windows\progetto1.csproj.CoreCompileInputs.cache
+\\10.0.0.238\OpenShare\CED\LORENZO\progetti-stage\progetto1\obj\Debug\net10.0-windows\progetto1.sourcelink.json
+\\10.0.0.238\OpenShare\CED\LORENZO\progetti-stage\progetto1\bin\Debug\net10.0-windows\progetto1.exe
+\\10.0.0.238\OpenShare\CED\LORENZO\progetti-stage\progetto1\bin\Debug\net10.0-windows\progetto1.deps.json
+\\10.0.0.238\OpenShare\CED\LORENZO\progetti-stage\progetto1\bin\Debug\net10.0-windows\progetto1.runtimeconfig.json
+\\10.0.0.238\OpenShare\CED\LORENZO\progetti-stage\progetto1\bin\Debug\net10.0-windows\progetto1.dll
+\\10.0.0.238\OpenShare\CED\LORENZO\progetti-stage\progetto1\bin\Debug\net10.0-windows\progetto1.pdb
+\\10.0.0.238\OpenShare\CED\LORENZO\progetti-stage\progetto1\obj\Debug\net10.0-windows\progetto1.dll
+\\10.0.0.238\OpenShare\CED\LORENZO\progetti-stage\progetto1\obj\Debug\net10.0-windows\refint\progetto1.dll
+\\10.0.0.238\OpenShare\CED\LORENZO\progetti-stage\progetto1\obj\Debug\net10.0-windows\progetto1.pdb
+\\10.0.0.238\OpenShare\CED\LORENZO\progetti-stage\progetto1\obj\Debug\net10.0-windows\progetto1.genruntimeconfig.cache
+\\10.0.0.238\OpenShare\CED\LORENZO\progetti-stage\progetto1\obj\Debug\net10.0-windows\ref\progetto1.dll

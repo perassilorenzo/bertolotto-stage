@@ -1,0 +1,11 @@
+Nome Prodotto Quantità Prezzo Unitario
+Mouse Wireless;25;15.99
+Tastiera Meccanica;60;79.90
+Monitor 24 pollici;40;159.99
+Cuffie Bluetooth;75;49.50
+Webcam HD;30;35.00
+Stampante Laser;55;220.00
+Chiavetta USB 64GB;100;12.99
+Hard Disk Esterno 1TB;20;65.90
+Sedia Ergonomica;15;180.00
+Lampada da Scrivania;80;25.50

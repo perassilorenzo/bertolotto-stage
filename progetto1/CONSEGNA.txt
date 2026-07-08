@@ -1,0 +1,7 @@
+Alla avvio del programma seleziona un file di testo tramite una finestra di dialogo, ne analizzi il contenuto e stampi a video un report formattato.
+Requisiti del programma:
+- Selezione del File: All'avvio, il programma deve aprire una OpenFileDialog (nota: richiede l'aggiunta del riferimento a System.Windows.Forms o l'uso dell'attributo [STAThread] sulla funzione Main).
+- Lettura e Parsing: Il file selezionato è un file di testo con valori separati da punto e virgola (;). Il programma deve leggere il file riga per riga, ignorando la prima riga di intestazione.
+- Logica di Business:Calcolare il valore totale in magazzino per ogni prodotto ($\text{Quantità} \times \text{Prezzo Unitario}$).Se la quantità è superiore a 50 pezzi, applicare uno sconto del 10% sul prezzo finale di quel prodotto.
+- Output: Mostrare a video la lista dei prodotti modificati e, alla fine, il valore totale complessivo di tutto il magazzino.
+- Gestione Errori: Inserire un blocco try-catch per gestire eventuali file corrotti o formati di numero errati senza far crashare l'applicazione.
