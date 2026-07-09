@@ -1,0 +1,6 @@
+Nome;OreLavorate;PagaOraria
+Marco Rossi;170;15
+Anna Verdi;155;18
+Luca Bianchi;162;16
+Giulia Neri;140;20
+Paolo Gialli;180;14

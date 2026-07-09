@@ -1,0 +1,17 @@
+All'avvio del programma seleziona un file di testo tramite una finestra di dialogo, ne analizzi il contenuto e stampi a video un report formattato.
+
+Requisiti del programma
+Selezione del file: all'avvio il programma deve aprire una OpenFileDialog.
+Lettura e Parsing: il file è composto da valori separati dal carattere ;. Il programma deve leggere il file riga per riga ignorando la prima riga di intestazione.
+Logica di Business:
+
+Per ogni dipendente calcolare lo stipendio lordo:
+
+Ore Lavorate×Paga Oraria
+Se le ore lavorate sono maggiori di 160, aggiungere un bonus di 200 €.
+Memorizzare se il dipendente ha ricevuto il bonus.
+Output:
+Stampare l'elenco dei dipendenti che hanno ricevuto il bonus.
+Stampare il totale degli stipendi pagati.
+Gestione Errori:
+Utilizzare un blocco try-catch per gestire eventuali errori di lettura del file o conversione dei dati.
