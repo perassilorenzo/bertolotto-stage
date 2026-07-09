@@ -1,0 +1,17 @@
+All'avvio del programma seleziona un file di testo tramite una finestra di dialogo, ne analizzi il contenuto e stampi a video un report formattato.
+
+Requisiti del programma
+Selezione del File: all'avvio il programma deve aprire una OpenFileDialog per permettere all'utente di scegliere un file di testo.
+Lettura e Parsing: il file contiene dati separati dal carattere ;. Il programma deve leggere il file riga per riga ignorando la prima riga di intestazione.
+Logica di Business:
+
+Per ogni ordine calcolare il costo totale:
+Quantità × Prezzo Unitario
+
+Se il costo totale supera 500 €, applicare uno sconto del 15%.
+Salvare gli ordini scontati in una lista.
+Output:
+Stampare l'elenco degli ordini ai quali è stato applicato lo sconto.
+Stampare il valore complessivo di tutti gli ordini dopo gli eventuali sconti.
+Gestione Errori:
+Utilizzare un blocco try-catch per gestire errori di lettura del file e di conversione dei dati numerici.

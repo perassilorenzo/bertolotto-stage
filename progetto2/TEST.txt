@@ -1,0 +1,6 @@
+Cliente;Quantita;PrezzoUnitario
+Mario Rossi;10;25
+Luca Bianchi;50;15
+Anna Verdi;100;8
+Paolo Neri;5;150
+Sara Gialli;30;20

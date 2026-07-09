@@ -27,10 +27,7 @@ namespace progetto1
                 foreach (Magazzino m in list)
                 {
                     totalPrice += Convert.ToInt32(m.totalPrice); 
-                    if (m.modify)
-                    {
-                        Console.WriteLine($"- {m.product}");
-                    }
+                    if (m.modify) Console.WriteLine($"- {m.product}");
                 }
                 Console.WriteLine($"\nPREZZO TOTALE DI TUTTO IL MAGAZZINO: {totalPrice}€\n");
             
