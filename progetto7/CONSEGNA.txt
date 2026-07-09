@@ -1,0 +1,16 @@
+All'avvio del programma selezionare un file di testo tramite OpenFileDialog.
+
+Il file contiene:
+
+Numero fattura
+Cliente
+Importo
+Stato (Pagata oppure NonPagata)
+
+I dati sono separati dal carattere ;.
+
+Logica
+Calcolare il totale delle fatture pagate.
+Calcolare il totale delle fatture non pagate.
+Contare quante fatture risultano ancora da pagare.
+Stampare l'elenco dei clienti con fatture non pagate.

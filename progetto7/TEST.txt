@@ -1,0 +1,5 @@
+Numero;Cliente;Importo;Stato
+1001;Alfa SRL;1200.50;Pagata
+1002;Beta SNC;850.00;NonPagata
+1003;Gamma SPA;2300.20;Pagata
+1004;Delta SRL;640.90;NonPagata
