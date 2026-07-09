@@ -1,0 +1,33 @@
+All'avvio del programma seleziona un file di testo tramite una finestra di dialogo. Il programma deve analizzare le temperature registrate durante una settimana e produrre un report.
+
+Requisiti
+Aprire un file tramite OpenFileDialog.
+Il file è composto da valori separati da ;.
+Ignorare la prima riga (intestazione).
+
+Per ogni riga del file:
+
+leggere il nome della città;
+leggere le 7 temperature della settimana;
+calcolare la temperatura media;
+determinare la temperatura massima registrata nella settimana;
+se la temperatura massima supera 35°C, segnalare la città come "Allerta Caldo".
+Output
+
+Stampare una tabella simile a questa:
+
+Città           Media      Massima      Stato
+Torino          28.4       36           Allerta
+Milano          24.8       31           OK
+Roma            33.1       38           Allerta
+
+Infine stampare:
+
+la città con la temperatura media più alta;
+la media delle temperature di tutte le città.
+Gestione errori
+
+Usare un blocco try-catch per gestire:
+
+file inesistente;
+dati non numerici.

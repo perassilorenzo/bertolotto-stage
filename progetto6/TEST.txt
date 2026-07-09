@@ -1,0 +1,5 @@
+Citta;Lun;Mar;Mer;Gio;Ven;Sab;Dom
+Torino;28;30;31;29;34;36;31
+Milano;22;25;24;26;27;31;19
+Roma;33;35;37;38;34;29;26
+Napoli;30;29;31;33;32;30;31
