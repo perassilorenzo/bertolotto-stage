@@ -1,0 +1,17 @@
+All'avvio del programma seleziona un file di testo tramite una finestra di dialogo, ne analizzi il contenuto e stampi a video un report formattato.
+
+Requisiti del programma
+Selezione del file: all'avvio il programma deve aprire una OpenFileDialog per permettere all'utente di scegliere un file di testo.
+Lettura e Parsing: il file contiene dati separati dal carattere ;. Il programma deve leggere il file riga per riga ignorando la prima riga di intestazione.
+Logica di Business:
+
+Per ogni cliente calcolare l'importo della bolletta:
+
+Consumo (kWh)×Costo per kWh
+Se il consumo supera 500 kWh, aggiungere una penale di 25 €.
+Memorizzare se il cliente ha ricevuto la penale.
+Output:
+Stampare l'elenco dei clienti che hanno ricevuto la penale.
+Stampare il costo totale di tutte le bollette.
+Gestione Errori:
+Utilizzare un blocco try-catch per gestire errori di apertura del file e conversione dei dati.

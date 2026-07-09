@@ -1,0 +1,6 @@
+Cliente;Consumo;CostoKwh
+Mario Rossi;420;0.32
+Anna Verdi;650;0.28
+Luca Bianchi;510;0.30
+Sara Neri;300;0.31
+Paolo Gialli;720;0.27
