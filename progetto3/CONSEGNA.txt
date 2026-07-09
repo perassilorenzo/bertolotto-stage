@@ -1,0 +1,14 @@
+All'avvio del programma seleziona un file di testo tramite una finestra di dialogo, ne analizzi il contenuto e stampi a video un report formattato.
+
+Requisiti del programma
+Selezione del file: all'avvio il programma deve aprire una OpenFileDialog per permettere all'utente di scegliere un file di testo.
+Lettura e Parsing: il file è composto da valori separati dal carattere ;. Il programma deve leggere il file riga per riga ignorando la prima riga di intestazione.
+Logica di Business:
+Per ogni studente calcolare la media dei tre voti.
+Se la media è maggiore o uguale a 6, lo studente è promosso.
+Salvare l'informazione in una variabile booleana.
+Output:
+Stampare il nome degli studenti promossi.
+Stampare la media generale della classe.
+Gestione Errori:
+Utilizzare un blocco try-catch per gestire errori di lettura del file o conversione dei numeri.

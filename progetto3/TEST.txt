@@ -1,0 +1,6 @@
+Nome;Voto1;Voto2;Voto3
+Marco;7;8;6
+Luca;5;6;5
+Anna;9;8;10
+Giulia;4;5;6
+Paolo;6;6;6
