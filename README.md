@@ -1,89 +1,126 @@
 # Bertolotto Stage
 
-> **2-week IT internship** at [Bertolotto Porte](https://www.bertolottoporte.it/) — July 2026  
-> Focus: document management, archive digitalization, and C# programming exercises.
+> **2-week IT internship** at [Bertolotto Porte](https://www.bertolottoporte.it/) — July 2026
+> Focus: programming exercises, file parsing, and simple business reporting in C#.
 
 ---
 
 ## Overview
 
-This repository contains three C# console applications developed during a summer internship at Bertolotto Porte. Each project follows the same pattern: read a semicolon-delimited CSV file via `OpenFileDialog`, apply business logic, and print a formatted report to the console.
+This repository contains ten C# console applications created during a summer internship at Bertolotto Porte. Each project reads a semicolon-delimited text file with `OpenFileDialog`, processes the data, and prints a report to the console.
+
+The projects cover real-world business cases such as inventory control, order tracking, billing, payroll, temperature monitoring, and client status reporting.
 
 ---
 
 ## Projects
 
-### 1. Warehouse Inventory (`progetto1/`)
+### `progetto1` — Warehouse inventory
 
-Reads a product warehouse file and calculates inventory value.
+- Reads product name, quantity, and unit price
+- Marks products with quantity > 50 as modified
+- Calculates total inventory value
+- Prints modified products and total warehouse price
 
-- Parse product name, quantity, and unit price
-- If quantity > 50, apply **10% discount** on that product's total
-- Print modified products and total warehouse value
+### `progetto2` — Sales order discounts
 
-**Concepts**: File I/O, CSV parsing, conditional logic, try-catch error handling
+- Reads client orders with quantity and price
+- Applies a 25% discount on orders over 500€
+- Lists clients who received the discount
+- Prints the total order value
 
-### 2. Sales Order Management (`progetto2/`)
+### `progetto3` — Student grades
 
-Reads a client order file and applies volume discounts.
+- Reads student names and three grades
+- Calculates each student average
+- Marks students as promoted if average >= 6
+- Prints promoted students and class average
 
-- Calculate `quantity × price` per order
-- If total > 500€, apply **15% discount**
-- List discounted clients and total order value
+### `progetto4` — Client bill penalties
 
-**Concepts**: Structs, loops, discount logic, report formatting
+- Reads client usage and cost data
+- Computes each bill amount
+- Adds a 25€ penalty for bills over 500€
+- Lists clients with penalties and total billing cost
 
-### 3. Student Grade Management (`progetto3/`)
+### `progetto5` — Employee pay and bonus
 
-Reads a student grade file and determines pass/fail status.
+- Reads employee hours and hourly wage
+- Calculates salary per employee
+- Adds a 200€ bonus for employees with more than 160 hours
+- Prints employees with bonus and total salary
 
-- Calculate average of 3 grades per student
-- If average >= 6, student is **promoted**
-- Print promoted students and class average
+### `progetto6` — Weekly temperature report
 
-**Concepts**: Averages, boolean flags, list filtering
+- Reads daily temperatures for cities
+- Computes average and maximum temperature per city
+- Flags cities with a max temperature above 35°C
+- Prints city reports, the highest temperature, and average temperature
+
+### `progetto7` — Invoice tracking
+
+- Reads invoice number, client, amount, and payment status
+- Calculates totals for paid and unpaid invoices
+- Counts unpaid invoices
+- Lists clients with unpaid invoices
+
+### `progetto8` — Product availability
+
+- Reads product code, name, quantity, and availability status
+- Lists unavailable products
+- Calculates available and unavailable quantities
+- Prints the count of unavailable products
+
+### `progetto9` — Order status overview
+
+- Reads order number, client, category, amount, and delivery status
+- Lists clients with unsubmitted orders
+- Calculates submitted and unsubmitted totals
+- Prints the client with the highest order amount, average amount, and category counts
+
+### `progetto10` — Work order monitoring
+
+- Reads work order data with client, service type, hours, price, and status
+- Lists clients with ongoing jobs
+- Computes total revenue for completed and open jobs
+- Prints ongoing job count, average price, max price client, and total hours worked
 
 ---
 
 ## Tech Stack
 
-| Technology        | Purpose                             |
-| ----------------- | ----------------------------------- |
-| **C# (.NET 10)**  | Console application                 |
-| **Windows Forms** | `OpenFileDialog` for file selection |
-| **.NET SDK**      | Build and run                       |
+- `C#` with `.NET 10`
+- `System.Windows.Forms` for `OpenFileDialog`
+- Console output for reports
+- Simple file parsing with `StreamReader`
 
 ---
 
-## Getting Started
+## How to Run
 
-```bash
-# Clone the repo
-git clone https://github.com/perassilorenzo/bertolotto-stage.git
-cd bertolotto-stage
+```powershell
+cd "\\10.0.0.238\OpenShare\CED\LORENZO\progetti-stage"
 
-# Run any project (e.g., progetto1)
 dotnet run --project progetto1
 ```
 
-Each project will open a file dialog — select the corresponding `TEST.txt` to see the output.
+Replace `progetto1` with any project folder from `progetto1` to `progetto10`.
+
+Each project opens a file chooser. Use the matching `TEST.txt` file inside the project folder to run the example data.
 
 ---
 
-## What I Learned
+## Notes
 
-- Reading and parsing structured text files in C#
-- Using `OpenFileDialog` for user-friendly file selection
-- Structuring console applications with clear separation of concerns
-- Error handling with try-catch blocks
-- Working with .NET projects and build configuration
-- Real-world IT workflows in a manufacturing company environment
+- All projects use semicolon-delimited input files.
+- The applications are console-based but rely on a Windows file picker for input selection.
+- The code demonstrates basic data processing, conditional logic, and reporting.
 
 ---
 
-## Context
+## Internship Summary
 
-This internship was part of my IT studies at ITIS. The first week focused on document management and archive digitalization — learning how a manufacturing company handles technical documentation, quality certifications, and digital archiving. The second week shifted to programming, applying the C# skills I developed in school to practical exercises.
+During this internship, I practiced C# development with real file-based workflows. I learned how to parse structured text files, implement business rules, handle exceptions, and present results clearly on the console.
 
 ---
 
