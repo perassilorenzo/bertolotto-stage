@@ -1,0 +1,6 @@
+Codice;Nome;Quantita;Stato
+P001;Mouse;25;Disponibile
+P002;Tastiera;0;Esaurito
+P003;Monitor;8;Disponibile
+P004;Webcam;0;Esaurito
+P005;Cuffie;15;Disponibile

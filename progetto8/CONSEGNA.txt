@@ -1,0 +1,24 @@
+All'avvio del programma selezionare un file di testo tramite OpenFileDialog.
+
+Il file contiene:
+
+Codice prodotto
+Nome prodotto
+Quantità
+Stato (Disponibile oppure Esaurito)
+
+I dati sono separati dal carattere ;.
+
+Logica
+Calcolare la quantità totale dei prodotti disponibili.
+Calcolare la quantità totale dei prodotti esauriti.
+Contare quanti prodotti risultano esauriti.
+Stampare l'elenco dei nomi dei prodotti esauriti.
+
+Vincoli
+Utilizzare una struct Prodotto.
+Salvare tutti i prodotti in una List<Prodotto>.
+Leggere il file con StreamReader.
+Utilizzare Split(';').
+Lo stato deve essere memorizzato come variabile bool.
+Effettuare i calcoli con un ciclo foreach.
