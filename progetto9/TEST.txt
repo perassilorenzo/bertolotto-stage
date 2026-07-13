@@ -1,0 +1,8 @@
+NumeroOrdine;Cliente;Categoria;Importo;Stato
+1001;Mario Rossi;Elettronica;450,50;Consegnato
+1002;Luca Bianchi;Casa;89,90;InAttesa
+1003;Giulia Verdi;Elettronica;129,99;Consegnato
+1004;Anna Neri;Sport;75,00;InAttesa
+1005;Marco Gialli;Casa;210,40;Consegnato
+1006;Sara Blu;Sport;55,50;Consegnato
+1007;Paolo Rosa;Casa;120,00;InAttesa

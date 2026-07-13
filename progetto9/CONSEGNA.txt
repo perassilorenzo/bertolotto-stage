@@ -1,0 +1,29 @@
+All'avvio del programma selezionare un file di testo tramite OpenFileDialog.
+
+Il file contiene:
+
+Numero ordine
+Cliente
+Categoria prodotto
+Importo ordine
+Stato (Consegnato oppure InAttesa)
+
+I dati sono separati dal carattere ;.
+
+Logica
+
+Dopo aver letto il file:
+
+Calcolare il fatturato totale degli ordini consegnati.
+Calcolare il valore totale degli ordini ancora in attesa.
+Contare quanti ordini sono in attesa.
+Stampare l'elenco dei clienti che hanno ordini in attesa.
+Individuare l'ordine con l'importo più alto e stampare:
+numero ordine
+cliente
+importo
+Calcolare il valore medio degli ordini (di tutti gli ordini).
+Contare quanti ordini appartengono a ciascuna categoria:
+Elettronica
+Casa
+Sport
