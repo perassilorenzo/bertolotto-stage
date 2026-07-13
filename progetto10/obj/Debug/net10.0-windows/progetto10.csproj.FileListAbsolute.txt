@@ -1,0 +1,15 @@
+\\10.0.0.238\OpenShare\CED\LORENZO\progetti-stage\progetto10\bin\Debug\net10.0-windows\progetto10.exe
+\\10.0.0.238\OpenShare\CED\LORENZO\progetti-stage\progetto10\bin\Debug\net10.0-windows\progetto10.deps.json
+\\10.0.0.238\OpenShare\CED\LORENZO\progetti-stage\progetto10\bin\Debug\net10.0-windows\progetto10.runtimeconfig.json
+\\10.0.0.238\OpenShare\CED\LORENZO\progetti-stage\progetto10\bin\Debug\net10.0-windows\progetto10.dll
+\\10.0.0.238\OpenShare\CED\LORENZO\progetti-stage\progetto10\bin\Debug\net10.0-windows\progetto10.pdb
+\\10.0.0.238\OpenShare\CED\LORENZO\progetti-stage\progetto10\obj\Debug\net10.0-windows\progetto10.GeneratedMSBuildEditorConfig.editorconfig
+\\10.0.0.238\OpenShare\CED\LORENZO\progetti-stage\progetto10\obj\Debug\net10.0-windows\progetto10.AssemblyInfoInputs.cache
+\\10.0.0.238\OpenShare\CED\LORENZO\progetti-stage\progetto10\obj\Debug\net10.0-windows\progetto10.AssemblyInfo.cs
+\\10.0.0.238\OpenShare\CED\LORENZO\progetti-stage\progetto10\obj\Debug\net10.0-windows\progetto10.csproj.CoreCompileInputs.cache
+\\10.0.0.238\OpenShare\CED\LORENZO\progetti-stage\progetto10\obj\Debug\net10.0-windows\progetto10.sourcelink.json
+\\10.0.0.238\OpenShare\CED\LORENZO\progetti-stage\progetto10\obj\Debug\net10.0-windows\progetto10.dll
+\\10.0.0.238\OpenShare\CED\LORENZO\progetti-stage\progetto10\obj\Debug\net10.0-windows\refint\progetto10.dll
+\\10.0.0.238\OpenShare\CED\LORENZO\progetti-stage\progetto10\obj\Debug\net10.0-windows\progetto10.pdb
+\\10.0.0.238\OpenShare\CED\LORENZO\progetti-stage\progetto10\obj\Debug\net10.0-windows\progetto10.genruntimeconfig.cache
+\\10.0.0.238\OpenShare\CED\LORENZO\progetti-stage\progetto10\obj\Debug\net10.0-windows\ref\progetto10.dll

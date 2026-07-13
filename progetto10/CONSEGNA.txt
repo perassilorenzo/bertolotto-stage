@@ -1,0 +1,64 @@
+Esercizio: Gestione lavori Freelance
+
+All'avvio del programma selezionare un file di testo tramite OpenFileDialog.
+
+Il file contiene i dati dei lavori svolti da un freelancer.
+
+I dati sono separati dal carattere ;.
+
+Formato file:
+
+NumeroLavoro;Cliente;Servizio;OreLavorate;Prezzo;Stato
+
+Esempio:
+
+1;Crybu;Grafica Logo;8;300;Completato
+2;Mario Rossi;Sito Web;25;900;InAttesa
+3;PalestraX;Gestione Social;15;500;Completato
+4;NegozioY;Video Editing;10;250;InAttesa
+5;AziendaZ;Landing Page;20;700;Completato
+
+
+Creare una struct Work contenente:
+
+- Numero lavoro
+- Nome cliente
+- Tipo servizio
+- Ore lavorate
+- Prezzo
+- Stato
+
+
+Logica:
+
+Dopo aver letto il file:
+
+1) Calcolare il fatturato totale dei lavori completati.
+
+2) Calcolare il valore totale dei lavori ancora aperti (InCorso o InAttesa).
+
+3) Contare quanti lavori non sono ancora completati.
+
+4) Stampare l'elenco dei clienti che hanno lavori ancora aperti.
+
+5) Individuare il lavoro con il prezzo più alto e stampare:
+- numero lavoro
+- cliente
+- servizio
+- prezzo
+- ore lavorate
+
+6) Calcolare il prezzo medio di tutti i lavori.
+
+7) Calcolare il totale delle ore lavorate.
+
+8) Contare quanti lavori appartengono a ogni categoria:
+- Grafica
+- Sito Web
+- Video Editing
+- Social Media
+
+9) Individuare il cliente che ha generato più fatturato e stampare:
+- nome cliente
+- totale speso
+- numero di lavori effettuati

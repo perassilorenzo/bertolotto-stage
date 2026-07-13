@@ -1,0 +1,6 @@
+NumeroLavoro;Cliente;Servizio;OreLavorate;Prezzo;Stato
+1;Crybu;Grafica Logo;8;300;Completato
+2;Mario Rossi;Sito Web;25;900;InAttesa
+3;PalestraX;Gestione Social;15;500;Completato
+4;NegozioY;Video Editing;10;250;InAttesa
+5;AziendaZ;Landing Page;20;700;Completato
