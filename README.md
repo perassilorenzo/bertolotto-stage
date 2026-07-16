@@ -85,6 +85,14 @@ The projects cover real-world business cases such as inventory control, order tr
 - Computes total revenue for completed and open jobs
 - Prints ongoing job count, average price, max price client, and total hours worked
 
+### `filecopier` — File copy utility
+
+- Copies a file from one location to another via Windows dialogs
+- Uses `OpenFileDialog` for source and `FolderBrowserDialog` for destination
+- Overwrites existing files automatically
+- Handles specific exceptions: permissions, file-in-use, I/O errors
+- Console stays open after operation
+
 ---
 
 ## Tech Stack
@@ -104,7 +112,7 @@ cd "\\10.0.0.238\OpenShare\CED\LORENZO\progetti-stage"
 dotnet run --project progetto1
 ```
 
-Replace `progetto1` with any project folder from `progetto1` to `progetto10`.
+Replace `progetto1` with any project folder from `progetto1` to `progetto10`, or `filecopier`.
 
 Each project opens a file chooser. Use the matching `TEST.txt` file inside the project folder to run the example data.
 
