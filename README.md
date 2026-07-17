@@ -85,13 +85,14 @@ The projects cover real-world business cases such as inventory control, order tr
 - Computes total revenue for completed and open jobs
 - Prints ongoing job count, average price, max price client, and total hours worked
 
-### `filecopier` — File copy utility
+### `filecopier` — File uploader (local + cloud)
 
-- Copies a file from one location to another via Windows dialogs
-- Uses `OpenFileDialog` for source and `FolderBrowserDialog` for destination
-- Overwrites existing files automatically
-- Handles specific exceptions: permissions, file-in-use, I/O errors
-- Console stays open after operation
+- Interactive menu: local copy or Dropbox cloud upload
+- **Local copy**: file selection via `OpenFileDialog`, destination via `FolderBrowserDialog`, overwrite-safe
+- **Cloud upload**: upload to Dropbox `/Prova/` folder using `Dropbox.Api` SDK
+- Token auto-save in `token.txt`
+- Error handling for permissions, file-in-use, I/O errors
+- Console stays open after each operation
 
 ---
 
@@ -99,6 +100,7 @@ The projects cover real-world business cases such as inventory control, order tr
 
 - `C#` with `.NET 10`
 - `System.Windows.Forms` for `OpenFileDialog`
+- `Dropbox.Api` SDK for cloud uploads
 - Console output for reports
 - Simple file parsing with `StreamReader`
 
@@ -114,7 +116,7 @@ dotnet run --project progetto1
 
 Replace `progetto1` with any project folder from `progetto1` to `progetto10`, or `filecopier`.
 
-Each project opens a file chooser. Use the matching `TEST.txt` file inside the project folder to run the example data.
+Each project opens a file chooser (filecopier shows a menu first). Use the matching `TEST.txt` file inside the project folder to run the example data.
 
 ---
 
@@ -123,6 +125,7 @@ Each project opens a file chooser. Use the matching `TEST.txt` file inside the p
 - All projects use semicolon-delimited input files.
 - The applications are console-based but rely on a Windows file picker for input selection.
 - The code demonstrates basic data processing, conditional logic, and reporting.
+- `filecopier` also demonstrates cloud API integration with Dropbox.
 
 ---
 

@@ -1,29 +1,59 @@
-# FileCopier
+# File Uploader
 
-Applicazione Windows in C# per copiare file tramite interfaccia grafica Windows Forms, con gestione degli errori e sovrascrittura sicura dei file esistenti.
+Windows C# application for copying files locally or uploading them to Dropbox, with an interactive menu and error handling.
 
-## Funzionalità
+- C#
+- .NET 10
+- Windows Forms
+- Dropbox API
 
-- Selezione del file tramite `OpenFileDialog`
-- Scelta della cartella di destinazione tramite `FolderBrowserDialog`
-- Copia del file con `File.Copy` e sovrascrittura automatica
-- Gestione specifica delle eccezioni:
-  - permessi insufficienti
-  - file aperto da un altro programma
-  - errori di I/O
-  - errori imprevisti
-- Console mantenuta aperta al termine dell'operazione
+---
 
-## Come funziona
+## Features
 
-1. L'utente seleziona il file che vuole copiare tramite una finestra di dialogo Windows.
-2. L'applicazione richiede la scelta della cartella di destinazione.
-3. Il file viene copiato nella posizione scelta, sostituendo eventuali file con lo stesso nome.
-4. Al termine dell'operazione il programma mostra il risultato e rimane aperto in attesa di un input.
+### Local copy
 
-## Build ed esecuzione
+- File selection via `OpenFileDialog`
+- Destination folder selection via `FolderBrowserDialog`
+- Copy with `File.Copy` and automatic overwrite
+
+### Cloud upload (Dropbox)
+
+- File selection via `OpenFileDialog`
+- Upload to Dropbox in the `/Prova/` folder
+- Token auto-save in `token.txt`
+- If no token is found, the app asks for it and saves it
+
+### Menu
+
+- 1. Local copy
+- 2. Cloud upload (Dropbox)
+- 3. Change token
+- 4. Exit
+
+---
+
+## Requirements
+
+- .NET 10.0 SDK
+- Windows (uses Windows Forms)
+- Dropbox app with `files.content.write` permission (for cloud upload)
+
+## Token setup
+
+1. Go to [dropbox.com/developers/apps](https://dropbox.com/developers/apps)
+2. Create an app **Scoped Access** → **Full Dropbox** or **App Folder**
+3. Enable `files.content.write` permission and generate an Access Token
+4. Paste it in `token.txt` or use option 3 from the menu
+
+## Build
 
 ```bash
 dotnet build
+```
+
+## Run
+
+```bash
 dotnet run
 ```
