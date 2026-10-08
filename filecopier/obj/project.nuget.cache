@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Q2UL0qWnsQ8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\peras\\Desktop\\PROGETTI-IMPORTANTI\\bertolotto-stage\\filecopier\\FileCopier.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\peras\\.nuget\\packages\\dropbox.api\\7.2.0\\dropbox.api.7.2.0.nupkg.sha512",
+    "C:\\Users\\peras\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
